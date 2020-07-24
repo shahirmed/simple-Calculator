@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+  /*background: linear-gradient(to right, #e91e63, #3f51b5);*/
+  body {
+    background: linear-gradient(322deg, #d92fd3, #093989, #984fdf);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:19% 0%}
+    50%{background-position:82% 100%}
+    100%{background-position:19% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:19% 0%}
+    50%{background-position:82% 100%}
+    100%{background-position:19% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:19% 0%}
+    50%{background-position:82% 100%}
+    100%{background-position:19% 0%}
+}
+  
+
+
+button{
+  width: 80;
+  height: 50;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  background: #d1cbb8;
+  border: none;
+  color: white;
+  transition: 0.5s;
+  outline: none;
+}
+
+button:hover{
+  background: #a8a07e;
+}
+
+#answer-view{
+  width: 338px;
+  border: none;
+  color: #ebe8df;
+  outline: none;
+  cursor: default;
+  font-size: 25px;
+  padding: 10px;
+  margin: 2px 4px;
+}
+         
+.outer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
